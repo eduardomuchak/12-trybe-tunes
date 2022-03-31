@@ -1,0 +1,17 @@
+.album-container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.album-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-info > img {
+  margin-top: 20px;
+  width: 250px;
+}

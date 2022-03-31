@@ -1,0 +1,21 @@
+.track-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.track-container > span {
+  width: 33%;
+}
+
+.track-container > audio {
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 450px;
+}
+
+.track-container > label {
+  width: 90px;
+}
+

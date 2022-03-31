@@ -1,0 +1,11 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 50px;
+  width: 50%;
+}
+
+.teste:hover {
+  background-color: black;
+}
