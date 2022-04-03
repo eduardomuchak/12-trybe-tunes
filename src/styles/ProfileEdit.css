@@ -1,0 +1,43 @@
+.container-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-changes-button {
+  background-color: #1db954;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 12px 20px;
+}
+
+.save-changes-button:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.edit-inputs {
+  border: 1px solid #1db954;
+  border-radius: 4px;
+  padding: 12px 20px;
+  width: 400px;
+}
+
+.edit-inputs:focus {
+  border: 3px solid #1db954;
+  outline: none;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
